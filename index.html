@@ -1,8 +1,58 @@
 <html>
     <head>
-        <title>muskela</title>
+        <title>🤘MUSKELA🤘</title>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css'>
+        <style>
+          body {
+            font-weight: bold;
+            font-family: 'Open Sans', sans-serif;
+            background-color:#144C7B;
+            background-image: linear-gradient(30deg, #29A6F2 12%, transparent 12.5%, transparent 87%, #29A6F2 87.5%, #29A6F2),
+            linear-gradient(150deg, #29A6F2 12%, transparent 12.5%, transparent 87%, #29A6F2 87.5%, #29A6F2),
+            linear-gradient(30deg, #0B4466 12%, transparent 12.5%, transparent 87%, #0B4466 87.5%, #0B4466),
+            linear-gradient(150deg, #0B4466 12%, transparent 12.5%, transparent 87%, #0B4466 87.5%, #0B4466),
+            linear-gradient(60deg, #40618B 25%, transparent 25.5%, transparent 75%, #40618B 75%, #40618B),
+            linear-gradient(60deg, #40618B 25%, transparent 25.5%, transparent 75%, #40618B 75%, #40618B);
+            background-size:80px 140px;
+            background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+          }
+          .musk {
+            position: absolute;
+            text-align: center;
+            width: 400px;
+            left: 50%;
+            font-size: 40px;
+            line-height: 40px;
+            top: 70px;
+          }
+          .musk>div {
+            position: relative;
+            left: -50%;
+            transform: rotate(180deg);
+          }
+          .musk>div>span {
+            display: inline-block;
+          }
+          .musk>div>span:nth-child(odd){
+            color: #EB263F;
+            transform: rotate(180deg);
+          }
+          .musk>div>span:nth-child(even){
+            color: #00BFBE;
+          }
+        </style>
     </head>
     <body>
-        This is it
+      <div class="musk">
+        <div>
+        <span>M</span>
+        <span>U</span>
+        <span>S</span>
+        <span>K</span>
+        <span>E</span>
+        <span>L</span>
+        <span>A</span>
+        </div>
+      </div>
     </body>
 </html>
